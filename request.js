@@ -5,9 +5,6 @@ const { Response } = require('./database/dbconn');
 const { logger} = require('./logger');
 
 
-//let distmat="https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1641960000000&key=AIzaSyCyCr5WebY0cl5VyeBiBxfZ7dOJr9mHnIg";
-
-//currentdatase  is supplied as argument.It is the contents of output.json file
 
 exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId, departureTime) {
 
@@ -15,7 +12,6 @@ exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId,
       //Try making a request to distance matrix api using axios
       const responseJson = await axios.get(requestString);
      
-      // return;
       
       let distance_km ,duration_m, duration_traffic_m, destinations, origins;
 

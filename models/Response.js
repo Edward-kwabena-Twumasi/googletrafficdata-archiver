@@ -1,22 +1,22 @@
 require("dotenv").config();
 const db_url = process.env.PORT ? process.env.live_db : process.env.local_db;
 
-//const url = "postgres://data_archiver_user:Oe6I0ltverdlps791SMCK3pVV4YRuPJ3@dpg-cgauq182qv267ue4rf7g-a.oregon-postgres.render.com/data_archiver";
 
 const {Sequelize , Model, DataTypes}  = require('sequelize');
 
 const sequelize = new Sequelize(db_url,{
     
     dialect: 'postgres',
-      port: 5432
+      port: 5432,
+      dialectOptions: {
+        ssl: true
+      }
   });
-
-// new Sequelize({
-//     dialect: 'sqlite',
-//     storage: path.join("ouput","traffic_data")
-//   });
-
-//postgres://data_archiver_user:Oe6I0ltverdlps791SMCK3pVV4YRuPJ3@dpg-cgauq182qv267ue4rf7g-a/data_archiver
+  
+  //Add this to connect outside postgres
+//   dialectOptions: {
+//     ssl: true
+//   }
 
  class TrafficResponse extends Model {};
 

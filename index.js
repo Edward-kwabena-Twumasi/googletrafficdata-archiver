@@ -8,7 +8,6 @@ const server=express();
 const port=process.env.PORT || 5000;
 const myxlsx=require("xlsx");
 const fs =require("fs");
-const { createWriteStream } = require('fs');
 const { writeFile } = require('fs/promises');
 const createZip=require('./zipper');
 //const backup=require('./backuptofolder');
@@ -56,9 +55,6 @@ server.get('/', async (req,res)=>{
   
   console.log("Home route loaded or refreshed");
   console.log("Something for you before render")
-  //logger.info('Home route loaded or refreshed...');
-  // Your preprocessing code here
-  //logger.info('Program is ready to start');
   
 
   res.render("index", dynamicData);
@@ -77,15 +73,17 @@ const upload = multer({ storage: storage });
 
 server.post('/upload', upload.single('input'), (req, res) => {
   console.log(req.file); // Log information about the uploaded file
+
+  fs.rm('./input/request_data24hrTemp.json',(err)=>{
+  if (err) {
+    console.log("error deleting temp file")
+  }
+  console.log("Completing upload ...")
+  })
   res.send('File uploaded successfully'); // Send a response to the client
 });
 
-// server.get('/logs', (req, res) => {
-//   res.setHeader('Content-Type', 'text/event-stream');
-//   res.setHeader('Cache-Control', 'no-cache');
-//   res.setHeader('Connection', 'keep-alive');
-//   streamLogs(res);
-// });
+
 
 // start execution
 server.get('/start', (req,res)=> {
