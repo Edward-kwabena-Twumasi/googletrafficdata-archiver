@@ -353,7 +353,6 @@ function shutdown(signal) {
 }
 
   
-
 // fetch databse data as json
 async function downloadJsonData() {
   // Fetch all records from the database

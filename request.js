@@ -9,6 +9,7 @@ const { logger} = require('./logger');
 exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId, departureTime) {
 
     try {
+      return;
       //Try making a request to distance matrix api using axios
       const responseJson = await axios.get(requestString);
      
@@ -26,6 +27,7 @@ exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId,
        duration_m = responseJson.data.rows[row]["elements"][0].duration.text;
        
        } 
+       
      
       const newTrafficData =  await Response.create({
           requestId: requestId,
