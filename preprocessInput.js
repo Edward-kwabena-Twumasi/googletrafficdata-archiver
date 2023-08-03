@@ -11,7 +11,7 @@ const requestsNdOutput=require('./cron')
 const Stream = require('stream');
 require("dotenv").config()
 
-const distancematrixai_api_key=process.env.distancematrixai_api_key
+const google_api_key=process.env.google_api_key
 //Read input file from the output folder 
 //if it yet exists or access it from root folder
 let input_work_book;
@@ -171,6 +171,7 @@ exports.getRunTime = function getRunTime(params) {
   req_times24hr.sort(function(a, b) {
       return a - b;
     });
+    console.log(req_times24hr)
   console.log("Requests start time(hrs) .. "+req_times24hr[0]/60+".... Requests end time(hrs) ....."+req_times24hr[req_times24hr.length-1]/60);
 // logger.info("Requests start time(hrs) .. "+req_times24hr[0]/60+".... Requests end time(hrs) ....."+req_times24hr[req_times24hr.length-1]/60);
 
@@ -253,7 +254,8 @@ for (const k in req_times24hr) {
     //const timemil=departure.getTime()
     let destinations=`${palceCordinates.origin_latitude}%2c${palceCordinates.origin_longitude}`;
     let origins=`${palceCordinates.destination_latitude}%2c${palceCordinates.destination_longitude}`;
-    let baseUrl="https://api.distancematrix.ai/maps/api/distancematrix/json";
+    //let baseUrl="https://api.distancematrix.ai/maps/api/distancematrix/json";
+    let baseUrl="https://maps.googleapis.com/maps/api/distancematrix/json";
     let thisRequest=`${baseUrl}?destinations=${destinations}&origins=${origins}&mode=${mode}&traffic_mode=${trafficMode}&departure_time=today&key=${key}`;
 
     return thisRequest;
@@ -301,7 +303,7 @@ let ids=[]
      
      if (od_pairs_json[k].trip_id == timeAndIds.ids[m]) {
        
-    let requeststring = genRequestString(od_pairs_json[k],distancematrixai_api_key,"driving","best-guess");
+    let requeststring = genRequestString(od_pairs_json[k],google_api_key,"driving","best-guess");
     requestStrings.push(requeststring)
     ids.push(id)
     

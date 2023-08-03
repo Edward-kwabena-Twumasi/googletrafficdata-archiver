@@ -7,7 +7,10 @@ const {Sequelize , Model, DataTypes}  = require('sequelize');
 const sequelize = new Sequelize(db_url,{
     
     dialect: 'postgres',
-      port: 5432
+      port: 5432,
+      dialectOptions: {
+            ssl: true
+       }
   });
 
   //Add this to connect outside postgres
