@@ -74,9 +74,9 @@ const upload = multer({ storage: storage });
 server.post('/upload', upload.single('input'), (req, res) => {
   console.log(req.file); // Log information about the uploaded file
 
-  fs.rm('./input/request_data24hrTemp.json',(err)=>{
+  fs.rm('./input/request_data24hr.json',(err)=>{
   if (err) {
-    console.log("error deleting temp file")
+    console.log("error deleting temp file",err)
   }
   console.log("Completing upload ...")
   })

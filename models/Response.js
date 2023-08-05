@@ -13,7 +13,7 @@ const sequelize = new Sequelize(db_url,{
        }
   });
 
-  //Add this to connect outside postgres
+  //Add this to connect outside render.com
 //   dialectOptions: {
 //     ssl: true
 //   }
