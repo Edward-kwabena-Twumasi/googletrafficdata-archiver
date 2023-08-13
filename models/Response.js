@@ -11,10 +11,11 @@ const sequelize = new Sequelize(db_url,{
 
   });
 
-  //Add this to connect outside render.com
-//   dialectOptions: {
-//     ssl: true
-//   }
+  // use sqlite local db 
+// const sequelize = new Sequelize({
+//         dialect: 'sqlite',
+//         storage: path.join("ouput","traffic_data")
+//  });
 
  class TrafficResponse extends Model {};
 

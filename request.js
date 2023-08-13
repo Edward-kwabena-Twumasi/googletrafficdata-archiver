@@ -17,7 +17,8 @@ exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId,
 
       destinations = responseJson.data.destination_addresses[0];
       origins = responseJson.data.origin_addresses[0];
-
+      console.log(responseJson.data)
+      
       //extract distance,duration and duration in traffic 
        for (const row in responseJson.data.rows) {
       
