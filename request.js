@@ -35,7 +35,8 @@ exports.getTrafficInfo = async function getTrafficInfo(requestString, requestId,
           duration: duration_m.toString(),
           trafficDuration: duration_traffic_m.toString(),
           origins: origins.toString(),
-          destinations: destinations.toString()
+          destinations: destinations.toString(),
+          provider: "google"
 
         }) ;
 

@@ -49,6 +49,10 @@ const sequelize = new Sequelize(db_url,{
         type: DataTypes.STRING,
         allowNul: false,
     },
+    provider : {
+        type: DataTypes.STRING,
+        allowNul: false,
+    }
     },
     {
         sequelize,
