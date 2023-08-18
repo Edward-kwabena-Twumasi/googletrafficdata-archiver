@@ -12,10 +12,15 @@ const sequelize = new Sequelize(db_url,{
   });
 
   // use sqlite local db 
-// const sequelize = new Sequelize({
-//         dialect: 'sqlite',
-//         storage: path.join("ouput","traffic_data")
-//  });
+//   const sequelize = new Sequelize(db_url,{
+    
+//     dialect: 'postgres',
+//       port: 5432,
+//       dialectOptions :{
+//         ssl:true
+//       }
+//   });
+
 
  class TrafficResponse extends Model {};
 

@@ -4008,3 +4008,204 @@ info: Cannot read properties of undefined (reading 'toString')
 info: HTTP POST /upload {"meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"en-GB,en;q=0.9","connection":"keep-alive","content-length":"18328","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryg5jUhJBA1H7FFDis","cookie":"username-localhost-8888=\"2|1:0|10:1690421022|23:username-localhost-8888|44:NmRkYmYyNDJlZmE1NDczMDg2NmU5NDkwNTNkZGVjMDM=|416033448dee062583b4cb76437b03f96ff2ca3d5bb7746896ccaba7876d6299\"; csrftoken=jgoHtqEGcvOfz7vuowknWh0GBgJUyemhXYrZCt9pd8ZBZ7xf6nY90eSml29iTnTg","host":"localhost:5000","origin":"http://localhost:5000","referer":"http://localhost:5000/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15"},"httpVersion":"1.1","method":"POST","originalUrl":"/upload","query":{},"url":"/upload"},"res":{"statusCode":200},"responseTime":30}}
 info: HTTP POST /upload {"meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"en-GB,en;q=0.9","connection":"keep-alive","content-length":"18328","content-type":"multipart/form-data; boundary=----WebKitFormBoundary9jhe02Yrh845YfCm","cookie":"username-localhost-8888=\"2|1:0|10:1690421022|23:username-localhost-8888|44:NmRkYmYyNDJlZmE1NDczMDg2NmU5NDkwNTNkZGVjMDM=|416033448dee062583b4cb76437b03f96ff2ca3d5bb7746896ccaba7876d6299\"; csrftoken=jgoHtqEGcvOfz7vuowknWh0GBgJUyemhXYrZCt9pd8ZBZ7xf6nY90eSml29iTnTg","host":"localhost:5000","origin":"http://localhost:5000","referer":"http://localhost:5000/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15"},"httpVersion":"1.1","method":"POST","originalUrl":"/upload","query":{},"url":"/upload"},"res":{"statusCode":200},"responseTime":11}}
 info: HTTP GET /favicon.ico {"meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"en-GB,en;q=0.9","connection":"keep-alive","cookie":"username-localhost-8888=\"2|1:0|10:1690421022|23:username-localhost-8888|44:NmRkYmYyNDJlZmE1NDczMDg2NmU5NDkwNTNkZGVjMDM=|416033448dee062583b4cb76437b03f96ff2ca3d5bb7746896ccaba7876d6299\"; csrftoken=jgoHtqEGcvOfz7vuowknWh0GBgJUyemhXYrZCt9pd8ZBZ7xf6nY90eSml29iTnTg","host":"localhost:5001","referer":"http://localhost:5001/","sec-fetch-dest":"image","sec-fetch-mode":"no-cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15"},"httpVersion":"1.1","method":"GET","originalUrl":"/favicon.ico","query":{},"url":"/favicon.ico"},"res":{"statusCode":404},"responseTime":1}}
+info: HTTP POST /upload {"meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"en-GB,en;q=0.9","connection":"keep-alive","content-length":"62744","content-type":"multipart/form-data; boundary=----WebKitFormBoundary5MJf6Gge15AdeOkU","cookie":"username-localhost-8888=\"2|1:0|10:1690421022|23:username-localhost-8888|44:NmRkYmYyNDJlZmE1NDczMDg2NmU5NDkwNTNkZGVjMDM=|416033448dee062583b4cb76437b03f96ff2ca3d5bb7746896ccaba7876d6299\"; csrftoken=jgoHtqEGcvOfz7vuowknWh0GBgJUyemhXYrZCt9pd8ZBZ7xf6nY90eSml29iTnTg","host":"localhost:5001","origin":"http://localhost:5001","referer":"http://localhost:5001/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15"},"httpVersion":"1.1","method":"POST","originalUrl":"/upload","query":{},"url":"/upload"},"res":{"statusCode":200},"responseTime":17}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Error occured making request
+info: SSL/TLS required {"name":"SequelizeConnectionError","original":{"code":"28000","length":37,"name":"error","severity":"FATAL"},"parent":{"code":"28000","length":37,"name":"error","severity":"FATAL"}}
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691949600&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691950500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691951400&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691952300&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691953200&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691954100&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.695%2c-1.545155&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691955000&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.687508%2c-1.578834&mode=driving&traffic_mode=best-guess&departure_time=1691959500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688279%2c-1.595438&mode=driving&traffic_mode=best-guess&departure_time=1691959500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.687508%2c-1.578834&origins=6.688337%2c-1.5590018&mode=driving&traffic_mode=best-guess&departure_time=1691959500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.703662%2c-1.528848&mode=driving&traffic_mode=best-guess&departure_time=1691959500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
+info: Request error.......
+info: Request for | https://maps.googleapis.com/maps/api/distancematrix/json?destinations=6.686813%2c-1.573793&origins=6.692486%2c-1.553975&mode=driving&traffic_mode=best-guess&departure_time=1691959500&key=AIzaSyC8KdcufiPi02t3E7eGpfyTCqCIJ7rptJk
+info: Has failed @ request.js line 53
+info: undefined
